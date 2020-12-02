@@ -3,6 +3,7 @@ Type: Package
 Title: Exercise 32 solution
 Version: 1.0
 Date: 2020-12-02
+Depends: R (>= 3.5.0)
 Author: Jakub Cery and Adriana Srnakova
 Maintainer: Jakub Cery <noerrors@fullpoints.net>
 Description: Some stuff with polynomials
@@ -12,3 +13,7 @@ LinkingTo:
     Rcpp
 Imports: 
     Rcpp
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
