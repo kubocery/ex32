@@ -1,6 +1,6 @@
 ---
 title: "ex32"
-output: rmarkdown::html_vignette
+output: knitr::html_vignette
 vignette: >
   %\VignetteIndexEntry{ex32}
   %\VignetteEngine{knitr::rmarkdown}
