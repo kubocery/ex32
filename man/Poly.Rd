@@ -22,7 +22,7 @@ There are 2 methods for multiplication and one for printing
 ## Generate the sequence of the first 10 Fibonacci numbers.
 p <- Poly(c(1,2,3))
 ## One can now print:
-p
+print(p)
 }
 \references{
 \url{https://en.wikipedia.org/wiki/Polynomial}.
