@@ -1,0 +1,14 @@
+Package: ex32
+Type: Package
+Title: Exercise 32 solution
+Version: 1.0
+Date: 2020-12-02
+Author: Jakub Cery and Adriana Srnakova
+Maintainer: Jakub Cery <noerrors@fullpoints.net>
+Description: Some stuff with polynomials
+License: GPL 2
+RoxygenNote: 7.1.1
+LinkingTo: 
+    Rcpp
+Imports: 
+    Rcpp
