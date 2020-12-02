@@ -1,5 +1,5 @@
 ---
-title: "ex32"
+title: "Exercise 32"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{ex32}
@@ -17,3 +17,20 @@ knitr::opts_chunk$set(
 ```{r setup}
 library(ex32)
 ```
+
+## Performance comparision R vs. C
+```{r}
+library("microbenchmark")
+
+p<- ex32::Poly(c(1,2,3))
+q <- ex32::Poly(c(4,5,6))
+
+mb <- microbenchmark(
+  R = ex32::polymult.Poly(p,q),
+  C = ex32::polymult_C_c(p, q),
+  times = 5000L
+)
+
+aggregate(time ~ expr, data=as.data.frame(mb), FUN=median)
+```
+We see, that the R based function is slower than C based function. 
