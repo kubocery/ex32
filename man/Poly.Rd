@@ -19,7 +19,7 @@ Generate a polynomial object.
 There are 2 methods for multiplication and one for printing
 }
 \examples{
-## Generate the sequence of the first 10 Fibonacci numbers.
+## Create a simple polynomial: 1+2x+3x^2
 p <- Poly(c(1,2,3))
 ## One can now print:
 print(p)
