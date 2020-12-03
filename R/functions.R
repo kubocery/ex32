@@ -10,7 +10,7 @@
 #' @references \url{https://en.wikipedia.org/wiki/Polynomial}.
 #' @author Jakub Cery and Andrea Srnakova
 #' @examples
-#' ## Generate the sequence of the first 10 Fibonacci numbers.
+#' ## Create a simple polynomial: 1+2x+3x^2
 #' p <- Poly(c(1,2,3))
 #' ## One can now print:
 #' print(p)
