@@ -1,6 +1,6 @@
 # Simple Package for ATC
 
-This is a repo for Advanced Topics in Computing, Exercise 32 by Jakub Cery and Andrea Srnakova (group 2)
+This is a repo for Advanced Topics in Computing, Exercise 32 by Jakub Cery, Andrea Srnakova and Zofia Albrychiewicz (group 2)
 
 Most of the things should work fine
 
